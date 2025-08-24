@@ -1,7 +1,7 @@
 #custom exception
 import sys 
 #manipulate different parts of py rte
-import logging
+from src.logger import logging
 
 def error_message_detail(error,error_detail:sys):
     _,_,exc_tb = error_detail.exc_info() #info about error which file, line,etc
